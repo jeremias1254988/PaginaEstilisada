@@ -1,0 +1,61 @@
+/* Fondo dividido en 2 colores */
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #FFD700 50%, #0033A0 50%); /* amarillo oro y azul */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo de los títulos con recuadro negro */
+h1, h2 {
+    background-color: black;   /* Fondo negro */
+    padding: 10px 20px;        /* Espaciado alrededor del texto */
+    border-radius: 10px;       /* Bordes redondeados */
+    display: inline-block;     /* Ajusta el ancho al contenido */
+    margin: 10px;
+}
+
+h1 {
+    color: #FFD700; /* Amarillo oro */
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #0033A0; /* Azul */
+    font-size: 2em;
+}
+
+/* Texto general */
+p, li {
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Imagen común */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid Black; /* Marco rojo */
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+/* Segunda imagen con marco más fuerte */
+.imagen2 {
+    border: 15px solid red;
+
+    border: 5px solid red; /* Marco rojo */
+}
+
+
+
+
+
+
+
+
+
